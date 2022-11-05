@@ -1,0 +1,22 @@
+{
+  "name": "hktr92/php-secrecy",
+  "description": "Secrecy holds your sensitive data as safe as possible from leaking.",
+  "type": "library",
+  "version": "0.1.0",
+  "minimum-stability": "stable",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Dante Ilyich"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "Hktr92\\Secrecy\\": "src/"
+    }
+  },
+  "require": {
+    "php": ">=7.3.0",
+    "prewk/result": "3.1"
+  }
+}
